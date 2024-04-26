@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Rodaq';
+  src:  url('fonts/Rodaq.eot?bb7pw7');
+  src:  url('fonts/Rodaq.eot?bb7pw7#iefix') format('embedded-opentype'),
+    url('fonts/Rodaq.ttf?bb7pw7') format('truetype'),
+    url('fonts/Rodaq.woff?bb7pw7') format('woff'),
+    url('fonts/Rodaq.svg?bb7pw7#Rodaq') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.rodaq {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Rodaq' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 30px;
+}
+
+.rodaq-icon-submit:before {
+  content: "\e900";
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+} 
+
+.rodaq-icon-testimonial:before {
+  content: "\e901";
+  color: #003dff;
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+
+.rodaq-twitter:before {
+  content: "\ea96";
+}
+.rodaq-dribbble:before {
+  content: "\eaa7";
+}
+.rodaq-linkedin:before {
+  content: "\eaca";
+}
